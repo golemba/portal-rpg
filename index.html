@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portal</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="topo">
+            <div class="topoint">
+                <div class="topoleft">
+                    <ul>
+                        <li><a href="./" class="ativo">HOME</a></li>
+                        <li><a href="teste1" class="ativo">RPG's</a></li>
+                        <li><a href="teste2" class="ativo">JOGADORES</a></li>
+                        <li><a href="teste3" class="ativo">HISTORIAS</a></li>
+                        <li><a href="teste4" class="ativo">REGRAS</a></li>
+                    </ul>
+                </div>
+                <div class="toporight">
+                    <input type="image" src="./imagens/lupa.png" border="0" width="26" height="26"/>
+                    <input type="text" name="Busca" class="topobusca" placeholder="Busca..."/>
+                    <a href=""><img src="./imagens/youtube.png" border="0" width="26" height="26" /></a>
+                    <a href=""><img src="./imagens/twitter.png" border="0" width="26" height="26" /></a>
+                    <a href=""><img src="./imagens/facebook.png" border="0" width="26" height="26" /></a>
+                    <a href=""><img src="./imagens/googleplus.png" border="0" width="26" height="26" /></a>
+                    <a href=""><img src="./imagens/rss.png" border="0" width="26" height="26" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="topo2">
+            <div class="topo2int">
+                <div class="topo2left">
+                    <img src="./imagens/rpg.png" border="0" width="200"/>
+                </div>
+                <div class="topo2right">
+                    <audio controls autoplay loop >
+                        <source src="./imagens/musica.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menuint">
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li>
+                        <a href="./">Como Jogar</a>
+                        <div class="submenu">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./">Classes</a>
+                        <img src="./imagens/arrowdown.jpg" border="0" width="10px">
+                        <div class="submenu">
+                            <a href="./"><div class="submenuitem">Tank</div></a>
+                            <a href="./"><div class="submenuitem">Inteligente</div></a>
+                            <a href="./"><div class="submenuitem">Malandro</div></a>
+                            <a href="./"><div class="submenuitem">Suporte</div></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./">Atributos</a>
+                        <img src="./imagens/arrowdown.jpg" border="0" width="10px">
+                        <div class="submenu">
+                            <a href="./"><div class="submenuitem">Fisicos</div></a>
+                            <a href="./"><div class="submenuitem">Sociais</div></a>
+                            <a href="./"><div class="submenuitem">Intelectuais</div></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./">Itens</a>
+                        <img src="./imagens/arrowdown.jpg" border="0" width="10px">
+                        <div class="submenu">
+                            <a href="./"><div class="submenuitem">Consumiveis</div></a>
+                            <a href="./"><div class="submenuitem">Set's</div></a>
+                            <a href="./"><div class="submenuitem">Armas</div></a>
+                            <a href="./"><div class="submenuitem">Outros</div></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./">Dados</a>
+                        <img src="./imagens/arrowdown.jpg" border="0" width="10px">
+                        <div class="submenu">
+                            <a href="./"><div class="submenuitem">D-6</div></a>
+                            <a href="./"><div class="submenuitem">D-10</div></a>
+                            <a href="./"><div class="submenuitem">D-20</div></a>
+                            <a href="./"><div class="submenuitem">D-100</div></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./">Poderes</a>
+                        <img src="./imagens/arrowdown.jpg" border="0" width="10px">
+                        <div class="submenu">
+                            <a href="./"><div class="submenuitem">Cineticos</div></a>
+                            <a href="./"><div class="submenuitem">Mentais</div></a>
+                            <a href="./"><div class="submenuitem">Fisicos</div></a>
+                            <a href="./"><div class="submenuitem">Precognitivos</div></a>
+                            <a href="./"><div class="submenuitem">Outros</div></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="noticias">
+            <div class="noticiasint">
+                <div class="ultnoticiasarea">
+                    <div class="ultnoticiastitulo">RPG Toledo-PR</div>
+                    <div class="ultnoticiasnoticia">Se voce tem vontade de conhecer ou procura um grupo para jogar, entre em contato conosco.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="containerint">
+                <div class="leftside">
+                    <div class="slideshow" id="slideshow">
+                        <div class="slidebolinhas">
+                            <div class="bolinha" onclick="mudarSlide(0)"></div>
+                            <div class="bolinha" onclick="mudarSlide(1)"></div>
+                            <div class="bolinha" onclick="mudarSlide(2)"></div>
+                            <div class="bolinha" onclick="mudarSlide(3)"></div>
+                        </div>
+                        <div class="slideshowarea" >
+                            <a href="">
+                                <div class="slide" style="background-image:url('https://pensarbemviverbem.com.br/wp-content/uploads/2018/06/O-que-%C3%A9-RPG-de-Mesa-1.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">
+                                            NOSSA JOGATINA
+                                        </div>
+                                        <div class="slideinfo_subtitulo">
+                                            Toda terca feira nos juntamos para jogar algum dos nossos jogos.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="slide" style="background-image:url('https://www.sescpr.com.br/wp-content/uploads/2020/08/guia-b__sico-regras-d_d-5e.png')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">
+                                            TESTE SUA SORTE
+                                        </div>
+                                        <div class="slideinfo_subtitulo">
+                                            Nao adianta apenas ter criatividade para fazer uma acao epica, sera que voce consegue vencer os dados?
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="slide" style="background-image:url('https://www.rederpg.com.br/wp/wp-content/uploads/2015/05/jogo502.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">
+                                            MATERIAIS USADOS
+                                        </div>
+                                        <div class="slideinfo_subtitulo">
+                                            Somos um grupo amador, com um sonho e muita criatividade.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="slide" style="background-image:url('https://i1.wp.com/www.rpgnext.com.br/wp-content/uploads/2018/05/Como-come%C3%A7ar-uma-aventura-de-RPG_preview.png?w=658&ssl=1')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo_titulo">
+                                            ACTION FIGURE
+                                        </div>
+                                        <div class="slideinfo_subtitulo">
+                                            Usamos apenas a imaginacao, quem sabe um dia teremos um jogo completo.
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">NOTICIAS</div>
+                        <div class="widget_conteudo">
+                           <div class="noticiaarea1">
+                                <div class="noticiaitem noticiabig">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/Cthulhu.jpg" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">O temido Cthulhu</div>
+                                    <div class="noticiainfo">Sera que o grupo de jogadores, mais conhecidos como 'os falha critica', chegara a conhecer o Tchutchuco?</div>
+                                </div>                            
+                           </div>
+                           <div class="noticiaarea2">
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/Mesainterativa.jpg" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Tecnologia para os Nerds.</div>
+                                    <div class="noticiainfo">Com a ajuda da tecnologia, a imersao fica muito melhor e o jogo mais divertido.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/highres.jpg" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Roda de amigos.</div>
+                                    <div class="noticiainfo">Nada melhor que juntar os amigos e usar a imaginacao para jogar RPG.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/imaginacao.jpeg" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Solte sua Criatividade.</div>
+                                    <div class="noticiainfo">Para comecar a jogar RPG nao precisa de muito, apenas alguns dados e muita criatividadee imaginacao.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/prateleira.png" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Muitos jogos diferentes?</div>
+                                    <div class="noticiainfo">Se esta na duvida de qual jogo escolher, podemos ajudar na resposta.</div>
+                                </div>
+                           </div>
+                           <div style="clear: both"></div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">NOTICIAS</div>
+                        <div class="widget_conteudo">
+                           <div class="noticiaarea1">
+                                <div class="noticiaitem noticiabig">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/imaginacao2.png" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">O poder da Imaginacao</div>
+                                    <div class="noticiainfo">Use-a sem limites, alias, seu unico limite sao os dados.</div>
+                                </div>                            
+                           </div>
+                           <div class="noticiaarea2">
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/bardo.jpg" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">O melhor personagem</div>
+                                    <div class="noticiainfo">Qual aventura nao fica melhor com um bardo? </div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/cenario.jpg" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Cenarios Variados</div>
+                                    <div class="noticiainfo">Qualquer mapa que voce encontre na internet, pode se tornar um mapa de uma aventura.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/dado1.png" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Teste sua sorte</div>
+                                    <div class="noticiainfo">Seu unico adversario e sua propria sorte.</div>
+                                </div>
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="./imagens/mutante.png" border="0" width="80" height="80"/>
+                                    </div>
+                                    <div class="noticiatitulo">Mutante</div>
+                                    <div class="noticiainfo">Quem nunca sonhou em ser um x-men?</div>
+                                </div>
+                           </div>
+                           <div style="clear: both"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightside">
+                    <div class="widget">
+                        <div class="widget_titulo">SOCIAL</div>
+                        <div class="widget_conteudo">
+                            <a href=""><img src="./imagens/rss.png" border="0" width="26" height="26" /></a>
+                            <a href=""><img src="./imagens/googleplus.png" border="0" width="26" height="26" /></a>
+                            <a href=""><img src="./imagens/facebook.png" border="0" width="26" height="26" /></a>
+                            <a href=""><img src="./imagens/twitter.png" border="0" width="26" height="26" /></a>
+                            <a href=""><img src="./imagens/youtube.png" border="0" width="26" height="26" /></a>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">ULTIMAS NOTICIAS</div>
+                        <div class="widget_conteudo">
+                            <div class="noticia_item">
+                                <a href="./"> Personagem que afirma ter crescido atirando com um rifle, vai olhar pelo cano e se da um tiro na cabeca.</a>
+                            </div>
+                            <div class="noticia_item">
+                                <a href="./"> Monstro de Cthulhu aparece para acabar com o grupo, mas os personagens se matam sozinho e o monstro fica sem entender nada.</a>
+                            </div>
+                            <div class="noticia_item">
+                                <a href="./"> Na sessao, em 5 rolagem de dados, jogadores obtem 4 falhas criticas.</a>
+                            </div>
+                            <div class="noticia_item">
+                                <a href="./"> Jogador e considerado concordador nato! Aham, aceito, vou, beleza.</a>
+                            </div>
+                            <div class="noticia_item">
+                                <a href="./"> Jogador aprende da pior maneira a nunca mais emprestar suas armas para outros jogadores.</a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">PUBLICIDADE</div>
+                        <div class="widget_conteudo">
+                            <img src="./imagens/dados.png" border="0" width="275px" >
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div>
+                        <div class="widget_conteudo">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="275" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </body>
+</html>
